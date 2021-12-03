@@ -13,7 +13,7 @@ rankseq.m, checktempseq.m, checktempshuffle.m, rtfun.m, testsession.m,
 checkmotseq.m, rtfun2.m
 
 rankseq: computes rank order correlation between two sequences. Input:
-Seqeunces s1 and s2 are row vectors of neuron numbers. output is is
+Seqeunces s1 and s2 are row vectors of neuron numbers. output is 
 the spearmans rank order correlations and the minimal overlapping
 sequence length.
 
@@ -25,14 +25,14 @@ and the left and the rightward tempates to produce rvalues for null
 hypothesis.
 
 rtfun: surrogate set of rvalues for random shuffles of different
-lengths (input argument is a vector of lengths). ich radum sequnecs is
-correates to two fixed permutations reflecting the testing against
+lengths (input argument is a vector of lengths). It correates the sequence
+to two fixed permutations reflecting the testing against
 template sequences.
 
 
 testmot: same as testsession just for motifs
 
-checkmotseq: same as checktempseq just for motifs (no tempaltes but r
+checkmotseq: same as checktempseq just for motifs (no templates but r
 values within the set of sequences)
 
 rtfun2: same as rtfun for only one tempaltes seqeunces (not two
