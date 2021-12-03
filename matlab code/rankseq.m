@@ -18,9 +18,7 @@ function [rc len]=rankseq(s1,s2);
     d=d';
   end
   % s0 is the shorter sequence
-  
-  %length of the shorter sequence 
-  len=length(s0);
+ 
   
   %compute cell overlap (neurons contained in both)
   minseq=s(find(sum(d,2)>0));
@@ -49,5 +47,8 @@ function [rc len]=rankseq(s1,s2);
     rc=nan;
   end
   
-      
+   
+  %length of the minimal sequence 
+  len=length(id);
+  
   
